@@ -26,50 +26,50 @@ public class Coffee {
     @ManyToMany(mappedBy = "coffeeList")
     private List<Customer> customers;
 
-    public String getRoast() {
+    public String getRoast(){
         return roast;
     }
 
-    public void setRoast(String roast) {
+    public void setRoast(String roast){
         this.roast = roast;
     }
 
-    public String getOrigin() {
+    public String getOrigin(){
         return origin;
     }
 
-    public void setOrigin(String origin) {
+    public void setOrigin(String origin){
         this.origin = origin;
     }
 
-    public String getBrand() {
+    public String getBrand(){
         return brand;
     }
 
-    public void setBrand(String brand) {
+    public void setBrand(String brand){
         this.brand = brand;
     }
 
-    public long getId() {
+    public long getId(){
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(long id){
         this.id = id;
     }
 
-    public Supplier getSupplier() {
+    public Supplier getSupplier(){
         return supplier;
     }
 
-    public void setSupplier(Supplier supplier) {
+    public void setSupplier(Supplier supplier){
         this.supplier = supplier;
     }
 
     public Coffee() {
     }
 
-    public Coffee(String brand) {
+    public Coffee(String brand){
         this.brand = brand;
     }
 
