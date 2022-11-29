@@ -17,19 +17,19 @@ public class Supplier {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "supplier")
     private List<Coffee> coffees;
 
-    public long getId() {
+    public long getId(){
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(long id){
         this.id = id;
     }
 
-    public String getName() {
+    public String getName(){
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name){
         this.name = name;
     }
 
@@ -44,7 +44,7 @@ public class Supplier {
     public Supplier() {
     }
 
-    public Supplier(String name) {
+    public Supplier(String name){
         this.name = name;
     }
 
